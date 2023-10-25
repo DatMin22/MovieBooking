@@ -1,0 +1,29 @@
+.Chair {
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid #f5cc0085; */
+    background-color: #f5cc0085;
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.Chair.booking {
+    background-color: #e63745;
+    color: #fff;
+    border: transparent;
+}
+.Chair.booked {
+    background-color: #909090;
+    color: #000;
+    pointer-events: none;
+    border: transparent;
+}
+
+.bg-chair{
+    padding: 20px;
+    background: url(https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+    no-repeat center/ cover;
+}
